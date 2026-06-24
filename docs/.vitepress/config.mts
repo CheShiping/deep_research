@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Deep Research',
   description: '多智能体深度研究平台 — 企业级技术教程',
   lang: 'zh-CN',
+  base: '/deep_research/',
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
