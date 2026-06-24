@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(
+  defineConfig({
   title: 'Deep Research',
   description: '多智能体深度研究平台 — 企业级技术教程',
   lang: 'zh-CN',
@@ -125,4 +127,5 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
   }
-})
+}))
+
