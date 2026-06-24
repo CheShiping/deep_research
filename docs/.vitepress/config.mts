@@ -18,6 +18,7 @@ export default withMermaid(
     nav: [
       { text: '首页', link: '/' },
       { text: '教程', link: '/deep-research/01-项目概述与架构设计' },
+      { text: '部署指南', link: '/deploy-tutorial' },
       { 
         text: '项目源码',
         items: [
@@ -76,6 +77,7 @@ export default withMermaid(
           items: [
             { text: '术语表', link: '/appendix/glossary' },
             { text: '配置参考', link: '/appendix/configuration-reference' },
+            { text: 'VitePress 部署教程', link: '/deploy-tutorial' },
           ]
         }
       ],
