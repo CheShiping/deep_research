@@ -1,0 +1,95 @@
+import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
+
+export default withMermaid(
+  defineConfig({
+  title: 'PROJECT_TITLE',
+  description: 'PROJECT_DESCRIPTION',
+  lang: 'zh-CN',
+  // IMPORTANT: must match GitHub repo name exactly with leading/trailing slashes
+  base: '/REPO_NAME/',
+
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+  ],
+
+  themeConfig: {
+    // Navigation bar
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '教程', link: '/chapter-1/01-intro' },
+      {
+        text: '项目源码',
+        items: [
+          { text: 'GitHub 仓库', link: 'https://github.com/USER/REPO' },
+        ]
+      },
+    ],
+
+    // Sidebar - configure per chapter
+    sidebar: {
+      '/chapter-1/': [
+        {
+          text: '第一章标题',
+          items: [
+            { text: '1. 章节名', link: '/chapter-1/01-filename' },
+          ]
+        }
+      ],
+      '/appendix/': [
+        {
+          text: '附录',
+          items: [
+            { text: '术语表', link: '/appendix/glossary' },
+          ]
+        }
+      ],
+    },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/USER/REPO' }
+    ],
+
+    footer: {
+      message: 'FOOTER_MESSAGE',
+      copyright: 'FOOTER_COPYRIGHT'
+    },
+
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: { buttonText: '搜索文档' },
+          modal: {
+            noResultsText: '无结果',
+            footer: { closeText: '关闭' }
+          }
+        }
+      }
+    },
+
+    docFooter: {
+      prev: '上一章',
+      next: '下一章'
+    },
+
+    outline: {
+      label: '本页目录',
+      level: [2, 3]
+    },
+
+    editLink: {
+      pattern: 'https://github.com/USER/REPO/edit/master/docs/:path',
+      text: '在 GitHub 上编辑此页'
+    },
+
+    lastUpdated: {
+      text: '最后更新',
+      formatOptions: { dateStyle: 'short' }
+    }
+  },
+
+  markdown: {
+    lineNumbers: true,
+  }
+}))

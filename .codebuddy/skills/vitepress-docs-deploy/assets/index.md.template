@@ -1,0 +1,68 @@
+---
+layout: home
+
+hero:
+  name: "PROJECT_TITLE"
+  text: "PROJECT_SUBTITLE"
+  tagline: TAGLINE_TEXT
+  actions:
+    - theme: brand
+      text: 开始学习
+      link: /chapter-1/01-intro
+    - theme: alt
+      text: 查看源码
+      link: https://github.com/USER/REPO
+
+features:
+  - icon: 🧠
+    title: FEATURE_1_TITLE
+    details: FEATURE_1_DESCRIPTION
+    link: /chapter-1/01-intro
+  - icon: 💾
+    title: FEATURE_2_TITLE
+    details: FEATURE_2_DESCRIPTION
+    link: /chapter-2/01-intro
+  - icon: 🔍
+    title: FEATURE_3_TITLE
+    details: FEATURE_3_DESCRIPTION
+    link: /chapter-3/01-intro
+
+---
+
+## 教程概览
+
+BRIEF_INTRO_TEXT
+
+### Part 1 · PART1_NAME
+
+PART1_DESCRIPTION
+
+[开始学习 →](/chapter-1/01-intro)
+
+### Part 2 · PART2_NAME
+
+PART2_DESCRIPTION
+
+[开始学习 →](/chapter-2/01-intro)
+
+### Part 3 · PART3_NAME
+
+PART3_DESCRIPTION
+
+[开始学习 →](/chapter-3/01-intro)
+
+---
+
+## 技术栈
+
+| 层级 | 技术 | 用途 |
+|------|------|------|
+| **TECH_1_CAT** | TECH_1_NAME | TECH_1_USE |
+
+---
+
+## 学习路径
+
+| 路径 | 时长 | 适合人群 |
+|------|------|----------|
+| **PATH_1_NAME** | PATH_1_DURATION | PATH_1_AUDIENCE |
