@@ -159,4 +159,4 @@ MIT
 
 ---
 
-> 本教程来自小滴课堂（xdclass.net），已整理为在线文档站点并部署至 GitHub Pages。
+> 本项目来自小滴课堂（xdclass.net），已整理为在线文档站点并部署至 GitHub Pages。
