@@ -181,4 +181,4 @@ Python 类型注解工具，定义字典的键和值类型。LangGraph 的状态
 
 ---
 
-> 📖 **返回**：[教程首页](../README.md) | [配置参考](./configuration-reference.md)
+> 📖 **返回**：[教程首页](/) | [配置参考](./configuration-reference.md)

@@ -290,4 +290,4 @@ curl http://localhost:5000/api/chat -X POST -H "Content-Type: application/json" 
 
 ---
 
-> 📖 **返回**：[教程首页](../README.md) | [术语表](./glossary.md)
+> 📖 **返回**：[教程首页](/) | [术语表](./glossary.md)

@@ -21,6 +21,10 @@ env/
 # Node
 node_modules/
 
+# VitePress
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
 # Environment
 .env
 .env.local
